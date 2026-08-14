@@ -1,0 +1,6 @@
+TIME:201608311120
+DESCRIPTION: In Arduino Leonardo, Serial is reserved for USB CDC devices. The onboard RX and TX use Serial1, so the default serial port for boards like Leonardo is changed to Serial1. (在Arduino Leonardo 中Serial保留，用于USB CDC设备。板上RX和TX为Serial1，所以将Leonardo等板子默认串口修改为Serial1)
+
+TIME:201607082007
+DESCRIPTION: To allow switching serial ports on devices like Arduino Mega that have multiple hardware serial ports, the static method was removed. (为在Arduino Mega 等具有多个硬件串口的设备上切换串口，去除静态方法)
+
