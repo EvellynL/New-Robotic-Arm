@@ -14,11 +14,11 @@ Manual de configuração dos servos LX-15D também se encontra em: [eletronica](
 ### 📍Componentes utilizados: 
 - Servos LX-15D
 - Serial Bus Servo Controller LBSC - V1.5
-- ESP32 WROOM 32Dem
+- ESP32 WROOM 32D
 - Regulador de Tensão LM2596 ajustável com display
 - Bateria 9v
 
-### 📍Diagrama Elétrico 
+### 📍Diagrama Elétrico: 
 ![Diagrama elétrico](eletronica/diagrama_eletrico.png)
 
 Link sobre informações da placa Serial Bus Servo Controller LBSC - V1.5 e configurar os ID's dos servos: https://docs.hiwonder.com/projects/Bus-Servo-Controller/en/latest/docs/1.Bus_Servo_Controller_User_Manual.html
