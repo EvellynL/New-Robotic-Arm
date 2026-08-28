@@ -1173,6 +1173,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 33.02) (xy 76.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262ca57c-b579-4750-964f-bfbee02a74bb")
+	)
+	(wire
+		(pts
 			(xy 92.71 73.66) (xy 96.52 73.66)
 		)
 		(stroke
@@ -1190,16 +1200,6 @@
 			(type default)
 		)
 		(uuid "aaac2db0-5149-44e9-b458-a73851f72d7c")
-	)
-	(wire
-		(pts
-			(xy 71.12 63.5) (xy 76.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeb03d4a-7075-4d3b-b5c0-66aeb515b1d7")
 	)
 	(wire
 		(pts
@@ -1261,7 +1261,7 @@
 		)
 		(uuid "0700f745-15d8-4766-b683-158ff8068b28")
 	)
-	(label "GND"
+	(label "VIN"
 		(at 58.42 83.82 0)
 		(effects
 			(font
@@ -1282,14 +1282,14 @@
 		(uuid "38f3bcee-0011-408b-a628-404aee599455")
 	)
 	(label "VIN"
-		(at 71.12 63.5 0)
+		(at 72.39 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "437436dc-4928-4b6c-9bf0-1cd9915b7e31")
+		(uuid "4ce76d8b-42a7-4ad7-ac45-8f132b828e75")
 	)
 	(label ""
 		(at 193.04 -7.62 0)
@@ -1321,7 +1321,7 @@
 		)
 		(uuid "73bf367e-ae9e-44d0-9a24-df3999ee1d94")
 	)
-	(label "VIN"
+	(label "GND"
 		(at 58.42 81.28 0)
 		(effects
 			(font
