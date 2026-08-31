@@ -23,6 +23,14 @@ Manual de configuração dos servos LX-15D também se encontra em: [eletronica](
 
 Link sobre informações da placa Serial Bus Servo Controller LBSC - V1.5 e configurar os ID's dos servos: https://docs.hiwonder.com/projects/Bus-Servo-Controller/en/latest/docs/1.Bus_Servo_Controller_User_Manual.html
 
+## ⚙️Mecânica
+
+Toda estrutura mecânica foi modelada e desenvolvida utilizando o software Inventor Autodesk na versão 2027 e se encontram na pasta: [Mecânica](mecanica/partes_ipt)
+
+A fabricação das peças foram feitas nas impressoras 3D da Bambu Lab do modelo P1S utilizando filemanto PLA.
+
+MAIS DETALHES EM ANDAMENTO....🚧🚧🚧
+
 ## ⚠️Observações:
 - A tensão de operação dos Servos LX-15D está entre 6v - 8.4v. Valores menores impediram o funcionamento e valores maiores danificaram o componente.
 - O ESP32 não controla os servos diretamente; ele se comunica com a placa Serial Bus Servo Controller por meio de uma interface serial UART. Portanto, a interface UART utilizada para a comunicação com a placa **não deve ser compartilhada com o Monitor Serial**, sendo recomendável utilizar interfaces seriais distintas para cada finalidade.
