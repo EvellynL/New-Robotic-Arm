@@ -29,6 +29,8 @@ Toda estrutura mecânica foi modelada e desenvolvida utilizando o software Inven
 
 A fabricação das peças foram feitas nas impressoras 3D da Bambu Lab do modelo P1S utilizando filemanto PLA.
 
+![Estrutura do manipulador](mecanica/image/manipulador_montado.png)
+
 MAIS DETALHES EM ANDAMENTO....🚧🚧🚧
 
 ## ⚠️Observações:
