@@ -133,7 +133,7 @@ bool NewProtocolServo::requestTemperature(uint8_t servoID)
      *
      * Portanto Length = 2.
      */
-    packet[3] = 0x02;
+    packet[3] = 0x03;
 
     packet[4] = NPS_BUS_SERVO_READ_TEMP;
 
@@ -369,14 +369,14 @@ bool NewProtocolServo::parseByte(uint8_t byteReceived)
             /*
              * Para temperatura:
              *
-             * Length = 4
+             * Length = 5
              *
              * ID
              * 09
              * STATUS
              * TEMPERATURE
              */
-            if (expectedLength != 4)
+            if (expectedLength != 5)
             {
                 return false;
             }
